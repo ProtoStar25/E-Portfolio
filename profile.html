@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Nasun Ahmed image page for ASP.NET developer e-portfolio.">
+    <title>Nasun Ahmed | Image Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="preloader" id="preloader">
+        <div class="loader"></div>
+    </div>
+
+    <header class="header scrolled" id="header">
+        <nav class="navbar">
+            <a href="index.html#home" class="logo">Nasun<span>Dev</span></a>
+
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="index.html#home" class="nav-link">Home</a></li>
+                <li><a href="index.html#about" class="nav-link">About</a></li>
+                <li><a href="index.html#skills" class="nav-link">Skills</a></li>
+                <li><a href="index.html#projects" class="nav-link">Projects</a></li>
+                <li><a href="index.html#services" class="nav-link">Services</a></li>
+                <li><a href="profile.html" class="nav-link active">Image Page</a></li>
+                <li><a href="index.html#contact" class="nav-link">Contact</a></li>
+            </ul>
+
+            <div class="nav-actions">
+                <button class="theme-btn" id="theme-btn" aria-label="Toggle dark mode">🌙</button>
+                <button class="hamburger" id="hamburger" aria-label="Open menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="profile-hero page-top">
+            <div class="container profile-page-grid">
+                <div class="profile-photo-panel reveal">
+                    <div class="photo-frame">
+                        <img src="assets/profile-placeholder.svg" alt="Nasun Ahmed profile image" id="profile-preview">
+                    </div>
+                    <label class="upload-label" for="image-upload">Preview My Image</label>
+                    <input type="file" id="image-upload" accept="image/*">
+                    <p class="image-note">
+                        To permanently use your own photo, replace <strong>assets/profile-placeholder.svg</strong> with your image,
+                        or save your photo as <strong>assets/profile.jpg</strong> and update the image source in this page.
+                    </p>
+                </div>
+
+                <div class="profile-page-text reveal">
+                    <p class="section-subtitle">Image Page</p>
+                    <h1>Professional Profile Image Section</h1>
+                    <p>
+                        This page is made for your personal photo. It gives your e-portfolio a more professional developer identity
+                        while keeping the main theme focused on C#, ASP.NET Core, MVC, Web API, and SQL Server.
+                    </p>
+
+                    <div class="profile-highlights">
+                        <div>
+                            <strong>Role</strong>
+                            <span>Junior ASP.NET Developer</span>
+                        </div>
+                        <div>
+                            <strong>Main Language</strong>
+                            <span>C#</span>
+                        </div>
+                        <div>
+                            <strong>Backend</strong>
+                            <span>ASP.NET Core</span>
+                        </div>
+                        <div>
+                            <strong>Database</strong>
+                            <span>SQL Server</span>
+                        </div>
+                    </div>
+
+                    <div class="hero-buttons">
+                        <a href="index.html#projects" class="btn primary-btn">Back to Projects</a>
+                        <a href="index.html#contact" class="btn secondary-btn">Contact Me</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section gallery-section">
+            <div class="container">
+                <div class="section-header reveal">
+                    <p class="section-subtitle">Developer Identity</p>
+                    <h2 class="section-title">Photo & Branding Cards</h2>
+                </div>
+
+                <div class="identity-grid">
+                    <div class="identity-card reveal">
+                        <h3>Professional Summary</h3>
+                        <p>Junior ASP.NET developer skilled in C#, MVC architecture, REST API concepts, and SQL Server database design.</p>
+                    </div>
+                    <div class="identity-card reveal">
+                        <h3>Portfolio Theme</h3>
+                        <p>Clean, modern, dark-mode ready, responsive, and suitable for a computer science student portfolio.</p>
+                    </div>
+                    <div class="identity-card reveal">
+                        <h3>Image Usage</h3>
+                        <p>Use a clear formal photo. A plain background and good lighting will make the page look more professional.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>© 2026 Nasun Ahmed. Image Page for ASP.NET Developer Portfolio.</p>
+    </footer>
+
+    <button class="back-to-top" id="back-to-top" aria-label="Back to top">↑</button>
+
+    <script src="script.js"></script>
+</body>
+</html>

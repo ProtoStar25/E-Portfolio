@@ -1,0 +1,21 @@
+<svg width="800" height="880" viewBox="0 0 800 880" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="880" rx="48" fill="#111827"/>
+  <circle cx="400" cy="300" r="150" fill="url(#g1)"/>
+  <path d="M154 782C178 622 275 524 400 524C525 524 622 622 646 782H154Z" fill="url(#g2)"/>
+  <rect x="90" y="72" width="220" height="70" rx="35" fill="#512BD4" opacity="0.9"/>
+  <text x="125" y="118" fill="white" font-size="34" font-family="Arial" font-weight="700">C# Dev</text>
+  <rect x="512" y="80" width="180" height="58" rx="29" fill="#00A6ED" opacity="0.95"/>
+  <text x="545" y="118" fill="white" font-size="28" font-family="Arial" font-weight="700">.NET</text>
+  <text x="400" y="365" text-anchor="middle" fill="white" font-size="94" font-family="Arial" font-weight="800">NA</text>
+  <text x="400" y="826" text-anchor="middle" fill="#DDE8FF" font-size="34" font-family="Arial" font-weight="700">Replace this with your photo</text>
+  <defs>
+    <linearGradient id="g1" x1="250" y1="150" x2="550" y2="450" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#512BD4"/>
+      <stop offset="1" stop-color="#00A6ED"/>
+    </linearGradient>
+    <linearGradient id="g2" x1="154" y1="524" x2="646" y2="782" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#512BD4"/>
+      <stop offset="1" stop-color="#21D4A3"/>
+    </linearGradient>
+  </defs>
+</svg>
